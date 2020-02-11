@@ -15,7 +15,7 @@
     ],
     "dependencies": {
         "@babel/core": "7.1.0",
-        "@babel/plugin-proposal-object-rest-spread": "7.0.0",
+        "@babel/plugin-proposal-object-rest-spread": "7.8.3",
         "@lwc/babel-plugin-component": "1.2.2",
         "@lwc/errors": "1.2.2",
         "@lwc/shared": "1.2.2",
