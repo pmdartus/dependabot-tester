@@ -19,7 +19,7 @@
     "dependencies": {
         "@babel/generator": "~7.1.5",
         "@babel/parser": "~7.1.5",
-        "@babel/template": "~7.1.2",
+        "@babel/template": "~7.8.3",
         "@babel/traverse": "~7.1.5",
         "@babel/types": "~7.1.5",
         "@lwc/errors": "1.2.2",
