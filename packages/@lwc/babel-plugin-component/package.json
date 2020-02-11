@@ -20,7 +20,7 @@
         "line-column": "^1.0.2"
     },
     "devDependencies": {
-        "common-tags": "^1.8.0"
+        "common-tags": "1.8.0"
     },
     "publishConfig": {
         "access": "public"
