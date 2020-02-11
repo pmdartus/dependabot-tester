@@ -1,0 +1,15 @@
+{
+    "warnings": [
+        {
+            "code": 1051,
+            "message": "LWC1051: Forbidden tag found in template: '<title>' tag is not allowed.",
+            "level": 1,
+            "location": {
+                "line": 2,
+                "column": 5,
+                "start": 15,
+                "length": 20
+            }
+        }
+    ]
+}

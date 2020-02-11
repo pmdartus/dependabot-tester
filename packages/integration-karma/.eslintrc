@@ -1,0 +1,12 @@
+{
+    "globals": {
+        "process": true,
+        "LWC": true,
+        "spyOnAllFunctions": true
+    },
+
+    "env": {
+        "jasmine": true,
+        "browser": true
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "warnings": [
+        {
+            "code": 1054,
+            "message": "LWC1054: If directive should be an expression",
+            "level": 1,
+            "location": {
+                "line": 3,
+                "column": 19,
+                "start": 43,
+                "length": 16
+            }
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "warnings": [
+        {
+            "code": 1043,
+            "message": "LWC1043: Event handler should be an expression",
+            "level": 1,
+            "location": {
+                "line": 3,
+                "column": 17,
+                "start": 41,
+                "length": 24
+            }
+        }
+    ]
+}

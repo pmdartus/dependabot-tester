@@ -1,0 +1,15 @@
+{
+    "warnings": [
+        {
+            "code": 1055,
+            "message": "LWC1055: fooBar=\"test\" is not valid attribute for x-foo. All attributes name should be all lowercase.",
+            "level": 1,
+            "location": {
+                "line": 3,
+                "column": 16,
+                "start": 40,
+                "length": 13
+            }
+        }
+    ]
+}

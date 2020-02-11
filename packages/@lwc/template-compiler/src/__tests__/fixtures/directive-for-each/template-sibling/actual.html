@@ -1,0 +1,9 @@
+<template>
+    <section>
+        <template for:each={items} for:item="item">
+            <p key={item.id}>1{item}</p>
+            <p key={item.secondId}>2{item}</p>
+        </template>
+        <p>3{item}</p>
+    </section>
+</template>

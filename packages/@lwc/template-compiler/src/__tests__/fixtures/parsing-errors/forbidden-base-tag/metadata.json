@@ -1,0 +1,26 @@
+{
+    "warnings": [
+        {
+            "code": 1051,
+            "message": "LWC1051: Forbidden tag found in template: '<base>' tag is not allowed.",
+            "level": 1,
+            "location": {
+                "line": 2,
+                "column": 5,
+                "start": 15,
+                "length": 38
+            }
+        },
+        {
+            "code": 1050,
+            "message": "LWC1050: Forbidden MathML namespace tag found in template: '<base>' tag is not allowed within <math>",
+            "level": 1,
+            "location": {
+                "line": 4,
+                "column": 9,
+                "start": 73,
+                "length": 31
+            }
+        }
+    ]
+}

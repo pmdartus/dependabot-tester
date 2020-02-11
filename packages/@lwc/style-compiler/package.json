@@ -1,0 +1,25 @@
+{
+    "name": "@lwc/style-compiler",
+    "version": "1.2.2",
+    "description": "Transform style sheet to be consumed by the LWC engine",
+    "license": "MIT",
+    "main": "dist/commonjs/index.js",
+    "types": "dist/types/index.d.ts",
+    "scripts": {
+        "clean": "rm -rf dist/",
+        "build": "tsc",
+        "test": "jest"
+    },
+    "files": [
+        "dist/"
+    ],
+    "dependencies": {
+        "cssnano-preset-default": "~4.0.7",
+        "postcss": "~7.0.26",
+        "postcss-selector-parser": "~6.0.2",
+        "postcss-value-parser": "~4.0.2"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}

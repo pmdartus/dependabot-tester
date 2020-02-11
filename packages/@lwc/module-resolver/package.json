@@ -1,0 +1,17 @@
+{
+    "name": "@lwc/module-resolver",
+    "description": "Resolves paths for LWC components",
+    "version": "1.2.2",
+    "main": "dist/commonjs/index.js",
+    "typings": "dist/types/index.d.ts",
+    "scripts": {
+        "build": "tsc"
+    },
+    "license": "MIT",
+    "files": [
+        "dist/"
+    ],
+    "publishConfig": {
+        "access": "public"
+    }
+}

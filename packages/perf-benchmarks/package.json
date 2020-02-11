@@ -1,0 +1,20 @@
+{
+    "name": "perf-benchmarks",
+    "version": "1.2.2",
+    "private": true,
+    "scripts": {
+        "start": "best",
+        "remote": "best --projects best.headless.config.js --runner remote"
+    },
+    "devDependencies": {
+        "@best/cli": "^4.0.0-alpha11",
+        "@best/runner-headless": "4.0.0-alpha11",
+        "@best/runner-hub": "4.0.0-alpha11",
+        "@best/store-aws": "4.0.0-alpha11",
+        "@lwc/rollup-plugin": "1.2.2"
+    },
+    "dependencies": {
+        "@lwc/engine": "1.2.2",
+        "@lwc/synthetic-shadow": "1.2.2"
+    }
+}

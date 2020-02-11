@@ -1,0 +1,7 @@
+dist/
+lib/
+coverage/
+
+fixtures/
+public/
+types/

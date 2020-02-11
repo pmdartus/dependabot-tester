@@ -1,0 +1,8 @@
+<template>
+    <template if:true={isTrue}>
+        Outer
+        <template for:each={items} for:item="item">
+            <p key={item.id}>Inner</p>
+        </template>
+    </template>
+</template>

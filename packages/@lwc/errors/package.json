@@ -1,0 +1,22 @@
+{
+    "name": "@lwc/errors",
+    "version": "1.2.2",
+    "description": "LWC Error Utilities",
+    "main": "dist/commonjs/index.js",
+    "license": "MIT",
+    "typings": "dist/types/index.d.ts",
+    "scripts": {
+        "clean": "rm -rf dist/",
+        "build": "tsc",
+        "test": "jest"
+    },
+    "files": [
+        "dist/"
+    ],
+    "keywords": [
+        "lwc"
+    ],
+    "publishConfig": {
+        "access": "public"
+    }
+}

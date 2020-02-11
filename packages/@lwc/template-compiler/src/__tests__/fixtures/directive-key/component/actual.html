@@ -1,0 +1,7 @@
+<template>
+    <ul>
+        <template for:each={items} for:item="item">
+            <ns-item key={item.key}>{item.value}</ns-item>
+        </template>
+    </ul>
+</template>

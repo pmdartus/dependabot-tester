@@ -1,0 +1,14 @@
+<template>
+    <div>
+        <x-b>
+            <template if:true={isLoading}>
+                <div></div>
+            </template>
+            <template if:true={haveLoadedItems}>
+                <template for:each={menuItems} for:item="item">
+                    x
+                </template>
+            </template>
+        </x-b>
+    </div>
+</template>

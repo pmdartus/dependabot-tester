@@ -1,0 +1,15 @@
+{
+    "warnings": [
+        {
+            "code": 1065,
+            "message": "LWC1065: Invalid key value for element <div>. Key cannot reference for:each index index",
+            "level": 1,
+            "location": {
+                "line": 3,
+                "column": 14,
+                "start": 38,
+                "length": 11
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "warnings": [
+        {
+            "code": 1047,
+            "message": "LWC1047: for:item directive is expected to be a string.",
+            "level": 1,
+            "location": {
+                "line": 2,
+                "column": 27,
+                "start": 37,
+                "length": 15
+            }
+        },
+        {
+            "code": 1045,
+            "message": "LWC1045: for:each directive is expected to be a expression.",
+            "level": 1,
+            "location": {
+                "line": 3,
+                "column": 10,
+                "start": 87,
+                "length": 16
+            }
+        },
+        {
+            "code": 1046,
+            "message": "LWC1046: for:index directive is expected to be a string.",
+            "level": 1,
+            "location": {
+                "line": 4,
+                "column": 43,
+                "start": 187,
+                "length": 17
+            }
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "warnings": [
+        {
+            "code": 1055,
+            "message": "LWC1055: myProp=\"foo\" is not valid attribute for x-test. All attributes name should be all lowercase.",
+            "level": 1,
+            "location": {
+                "line": 2,
+                "column": 13,
+                "start": 23,
+                "length": 12
+            }
+        }
+    ]
+}
