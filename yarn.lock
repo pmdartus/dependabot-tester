@@ -1062,14 +1062,22 @@
     "@best/utils" "4.0.0-alpha11"
     express "~4.16.2"
 
-"@best/runner-headless@4.0.0-alpha11":
-  version "4.0.0-alpha11"
-  resolved "https://registry.yarnpkg.com/@best/runner-headless/-/runner-headless-4.0.0-alpha11.tgz#c273669f5f03ca50e7a60c5140f76a1f1073c561"
-  integrity sha512-F2h7xjI2uAwIrM4jVaye4o4n6zjpdCzEydplRHVUjcRVHh7BWWnP9qM9rbQySs8FGhcD+vA0neW0+np1pC25rg==
+"@best/runner-abstract@4.0.0-beta5":
+  version "4.0.0-beta5"
+  resolved "https://registry.yarnpkg.com/@best/runner-abstract/-/runner-abstract-4.0.0-beta5.tgz#5a0b903381151a2a302a276405be670aed8d6ca6"
+  integrity sha512-pcl822l5puUqS1D9d2N2znMbMKmXWVeaEZ0KfcqSf3NojaX/im1WG8E2f4j6qzDdC8Dvgxc/RcZU/a3sKjt1qQ==
   dependencies:
-    "@best/runner-abstract" "4.0.0-alpha11"
-    "@best/types" "4.0.0-alpha11"
-    puppeteer "~2.0.0"
+    "@best/utils" "4.0.0-beta5"
+    express "~4.16.2"
+
+"@best/runner-headless@4.0.0-beta5":
+  version "4.0.0-beta5"
+  resolved "https://registry.yarnpkg.com/@best/runner-headless/-/runner-headless-4.0.0-beta5.tgz#f5a9fd361891f81fe18079f24794db4086f8f000"
+  integrity sha512-ItJb4/Za+I6GwAXP60KLRQ2DVXrkKoXLT9JG48MFCAHOLk3rKp6xGNDqEFt4cGffUbYMaMfTzZJLER2tfSGa6A==
+  dependencies:
+    "@best/runner-abstract" "4.0.0-beta5"
+    "@best/types" "4.0.0-beta5"
+    puppeteer "~2.1.0"
 
 "@best/runner-hub@4.0.0-alpha11":
   version "4.0.0-alpha11"
@@ -1133,10 +1141,25 @@
   resolved "https://registry.yarnpkg.com/@best/types/-/types-4.0.0-alpha11.tgz#199d63f71dcd9866115a618d94f72227d74cda76"
   integrity sha512-nHVU0DzKzHHOqAAgMkGEdTU8hvafWzDbhEOYeLWQT3lrePAirrqMT2qL0PeptnZBYFwFjoAWrJARCww3ltdV7w==
 
+"@best/types@4.0.0-beta5":
+  version "4.0.0-beta5"
+  resolved "https://registry.yarnpkg.com/@best/types/-/types-4.0.0-beta5.tgz#192537b2cf786b65ae281735b76114304eeb26e0"
+  integrity sha512-rnudEq5YdNHnNuyOsa2O2LijCLxUD9lh+mV90toyNcxUEuhdf6wjBn2SqKuTCqYp/l61z+NXMe3Kt/RWk54aSA==
+
 "@best/utils@4.0.0-alpha11":
   version "4.0.0-alpha11"
   resolved "https://registry.yarnpkg.com/@best/utils/-/utils-4.0.0-alpha11.tgz#0c5175dcc881ec6fb641d3e2eb34d4dd48b7aeac"
   integrity sha512-lXwVHT36CyzpVmEOIuMXM2BWSLvxYyZHjgJGUMsZ8fCfD7x2CXpyXj6P+fRJ8SaVKlVdsNIVK6y9lOLAE77tlg==
+  dependencies:
+    chalk "~2.4.2"
+    https-proxy-agent "2.2.2"
+    is-ci "~2.0.0"
+    systeminformation "~4.9.2"
+
+"@best/utils@4.0.0-beta5":
+  version "4.0.0-beta5"
+  resolved "https://registry.yarnpkg.com/@best/utils/-/utils-4.0.0-beta5.tgz#2d2e880f4c918ee6a54d4200c97f66cbfb7df4b3"
+  integrity sha512-veTChUNyBp5x5QIL4Y91vXkPBRP5vsdCipHaQmbt5AbB0S5NvlJ5tFcajK8P/upMABkOfhyQyASJc/3z68SZPA==
   dependencies:
     chalk "~2.4.2"
     https-proxy-agent "2.2.2"
@@ -2489,6 +2512,11 @@
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.3.tgz#bdfd69d61e464dcc81b25159c270d75a73c1a636"
   integrity sha512-Il2DtDVRGDcqjDtE+rF8iqg1CArehSK84HZJCT7AMITlyXRBpuPhqGLDQMowraqqu1coEaimg4ZOqggt6L6L+A==
 
+"@types/mime-types@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@types/mime-types/-/mime-types-2.1.0.tgz#9ca52cda363f699c69466c2a6ccdaad913ea7a73"
+  integrity sha1-nKUs2jY/aZxpRmwqbM2q2RPqenM=
+
 "@types/minimatch@*":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
@@ -2840,6 +2868,11 @@ agent-base@4, agent-base@^4.3.0:
   integrity sha512-salcGninV0nPrwpGNn4VTXBb1SOuXQBiqbrNXoeizJsHrsL6ERFM2Ne3JUSBWRE6aeNJI2ROP/WEEIDUiDe3cg==
   dependencies:
     es6-promisify "^5.0.0"
+
+agent-base@5:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/agent-base/-/agent-base-5.1.1.tgz#e8fb3f242959db44d63be665db7a8e739537a32c"
+  integrity sha512-TMeqbNl2fMW0nMjTEPOwe3J/PRFP4vqeoNuQMG0HlMrtm5QxKqdvAkZ1pRBQ/ulIyDD5Yq0nJ7YbdD8ey0TO3g==
 
 agent-base@^4.1.0, agent-base@~4.2.1:
   version "4.2.1"
@@ -4812,7 +4845,7 @@ debug@3.2.6, debug@^3.1.0, debug@^3.2.6:
   dependencies:
     ms "^2.1.1"
 
-debug@^4.0.1, debug@^4.1.1:
+debug@4, debug@^4.0.1, debug@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
   integrity sha512-pYAIzeRo8J6KPEaJ0VWOh5Pzkbw/RetuzehGM7QRRX5he4fPHx2rdKMB256ehJCkX+XRQm16eZLqLNS8RSZXZw==
@@ -5372,7 +5405,6 @@ escodegen@^1.11.1:
 
 "eslint-plugin-lwc-internal@link:./scripts/eslint-plugin":
   version "0.0.0"
-  uid ""
 
 eslint-scope@^5.0.0:
   version "5.0.0"
@@ -6786,13 +6818,13 @@ https-proxy-agent@^2.2.3:
     agent-base "^4.3.0"
     debug "^3.1.0"
 
-https-proxy-agent@^3.0.0:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-3.0.1.tgz#b8c286433e87602311b01c8ea34413d856a4af81"
-  integrity sha512-+ML2Rbh6DAuee7d07tYGEKOEi2voWPUGan+ExdPbPW6Z3svq+JCqr0v8WmKPOkz1vOVykPCBSuobe7G8GJUtVg==
+https-proxy-agent@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-4.0.0.tgz#702b71fb5520a132a66de1f67541d9e62154d82b"
+  integrity sha512-zoDhWrkR3of1l9QAL8/scJZyLu8j/gBkcwcaQOZh7Gyh/+uJQzGVETdgT30akuwkpL8HTRfssqI3BZuV18teDg==
   dependencies:
-    agent-base "^4.3.0"
-    debug "^3.1.0"
+    agent-base "5"
+    debug "4"
 
 human-signals@^1.1.1:
   version "1.1.1"
@@ -8955,7 +8987,7 @@ mime-types@^2.1.12, mime-types@~2.1.18, mime-types@~2.1.19:
   dependencies:
     mime-db "~1.37.0"
 
-mime-types@^2.1.26:
+mime-types@^2.1.25, mime-types@^2.1.26:
   version "2.1.26"
   resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.26.tgz#9c921fc09b7e149a65dfdc0da4d20997200b0a06"
   integrity sha512-01paPWYgLrkqAyrlDorC1uDwl2p3qZT7yl806vW7DvDoxwXi46jsjFbg+WdwotBIk6/MbEhO/dh5aZ5sNj/dWQ==
@@ -10669,15 +10701,17 @@ punycode@^2.1.0, punycode@^2.1.1:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
-puppeteer@~2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-2.0.0.tgz#0612992e29ec418e0a62c8bebe61af1a64d7ec01"
-  integrity sha512-t3MmTWzQxPRP71teU6l0jX47PHXlc4Z52sQv4LJQSZLq1ttkKS2yGM3gaI57uQwZkNaoGd0+HPPMELZkcyhlqA==
+puppeteer@~2.1.0:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-2.1.1.tgz#ccde47c2a688f131883b50f2d697bd25189da27e"
+  integrity sha512-LWzaDVQkk1EPiuYeTOj+CZRIjda4k2s5w4MK4xoH2+kgWV/SDlkYHmxatDdtYrciHUKSXTsGgPgPP8ILVdBsxg==
   dependencies:
+    "@types/mime-types" "^2.1.0"
     debug "^4.1.0"
     extract-zip "^1.6.6"
-    https-proxy-agent "^3.0.0"
+    https-proxy-agent "^4.0.0"
     mime "^2.0.3"
+    mime-types "^2.1.25"
     progress "^2.0.1"
     proxy-from-env "^1.0.0"
     rimraf "^2.6.1"
