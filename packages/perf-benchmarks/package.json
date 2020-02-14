@@ -10,7 +10,7 @@
         "@best/cli": "^4.0.0-alpha11",
         "@best/runner-headless": "4.0.0-alpha11",
         "@best/runner-hub": "4.0.0-alpha11",
-        "@best/store-aws": "4.0.0-alpha11",
+        "@best/store-aws": "4.0.0-beta5",
         "@lwc/rollup-plugin": "1.2.2"
     },
     "dependencies": {

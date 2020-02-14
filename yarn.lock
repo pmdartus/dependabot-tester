@@ -1098,12 +1098,12 @@
   dependencies:
     chalk "~2.4.2"
 
-"@best/store-aws@4.0.0-alpha11":
-  version "4.0.0-alpha11"
-  resolved "https://registry.yarnpkg.com/@best/store-aws/-/store-aws-4.0.0-alpha11.tgz#98bcc0bddc4368f0946969cc1da8622ad3b6772c"
-  integrity sha512-EG+m1pe+SzIcGYtMmIzz1AUG3lDXS1nAqr8o7wnDDwJ+pv1MJNSl/whgpNFxbnPPShUJevc5pRmwm/dIekmGGA==
+"@best/store-aws@4.0.0-beta5":
+  version "4.0.0-beta5"
+  resolved "https://registry.yarnpkg.com/@best/store-aws/-/store-aws-4.0.0-beta5.tgz#d75dd8a031c22ff9e6738cfd57fd301d81ba4414"
+  integrity sha512-H2MZ/TdrL0z4Ea9YIfbLs6bHEk6d6WlygsWrYB6qC4N2Qx9QkzhTktHl+uMVUJ2fXf401M5wlTXv5LUYBC+twg==
   dependencies:
-    "@best/types" "4.0.0-alpha11"
+    "@best/types" "4.0.0-beta5"
     aws-sdk "~2.444.0"
     chalk "~2.4.2"
     mime-types "~2.1.24"
@@ -1132,6 +1132,11 @@
   version "4.0.0-alpha11"
   resolved "https://registry.yarnpkg.com/@best/types/-/types-4.0.0-alpha11.tgz#199d63f71dcd9866115a618d94f72227d74cda76"
   integrity sha512-nHVU0DzKzHHOqAAgMkGEdTU8hvafWzDbhEOYeLWQT3lrePAirrqMT2qL0PeptnZBYFwFjoAWrJARCww3ltdV7w==
+
+"@best/types@4.0.0-beta5":
+  version "4.0.0-beta5"
+  resolved "https://registry.yarnpkg.com/@best/types/-/types-4.0.0-beta5.tgz#192537b2cf786b65ae281735b76114304eeb26e0"
+  integrity sha512-rnudEq5YdNHnNuyOsa2O2LijCLxUD9lh+mV90toyNcxUEuhdf6wjBn2SqKuTCqYp/l61z+NXMe3Kt/RWk54aSA==
 
 "@best/utils@4.0.0-alpha11":
   version "4.0.0-alpha11"
@@ -5372,7 +5377,6 @@ escodegen@^1.11.1:
 
 "eslint-plugin-lwc-internal@link:./scripts/eslint-plugin":
   version "0.0.0"
-  uid ""
 
 eslint-scope@^5.0.0:
   version "5.0.0"
