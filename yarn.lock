@@ -1035,6 +1035,14 @@
     "@best/utils" "4.0.0-alpha11"
     chalk "~2.4.2"
 
+"@best/console-stream@4.0.0-beta3":
+  version "4.0.0-beta3"
+  resolved "https://registry.yarnpkg.com/@best/console-stream/-/console-stream-4.0.0-beta3.tgz#1a811ea3905ac984660564150ecacc6192b9073d"
+  integrity sha512-UCuLs2gvg98g3TEDK5CuQLvmxDVmymoaY1xe0o0v/v2LCYDf8gJUNPxkwI89spQlvV87LY1yUTYgUw2y9maIAg==
+  dependencies:
+    "@best/utils" "4.0.0-beta3"
+    chalk "~2.4.2"
+
 "@best/github-integration@4.0.0-alpha11":
   version "4.0.0-alpha11"
   resolved "https://registry.yarnpkg.com/@best/github-integration/-/github-integration-4.0.0-alpha11.tgz#dc7edbaf0a5e195522292284016e4428eeea16bc"
@@ -1071,14 +1079,14 @@
     "@best/types" "4.0.0-alpha11"
     puppeteer "~2.0.0"
 
-"@best/runner-hub@4.0.0-alpha11":
-  version "4.0.0-alpha11"
-  resolved "https://registry.yarnpkg.com/@best/runner-hub/-/runner-hub-4.0.0-alpha11.tgz#81532f2dd2058f987ff3cf1c5cc9e085f3f4d5d2"
-  integrity sha512-07745BvAk6cTvww+/LNeKpmxpuCwwWcsbb/1ys3pzXJQR+yH8AnPCU4hLEHz60vT3GxsPm0TJ7lcPBG5kbqyVQ==
+"@best/runner-hub@4.0.0-beta3":
+  version "4.0.0-beta3"
+  resolved "https://registry.yarnpkg.com/@best/runner-hub/-/runner-hub-4.0.0-beta3.tgz#dab577b277d722f30b17350d1adfe905fe2a7da7"
+  integrity sha512-tD83XBAjzvCRtLuEES3hMG1dvzFTFeE9DiTY6Be/9Oj3+a1rv7/wX2+LFq06Q5Pg0ODATcEwHmFRWradRBthYA==
   dependencies:
-    "@best/console-stream" "4.0.0-alpha11"
-    "@best/types" "4.0.0-alpha11"
-    "@best/utils" "4.0.0-alpha11"
+    "@best/console-stream" "4.0.0-beta3"
+    "@best/types" "4.0.0-beta3"
+    "@best/utils" "4.0.0-beta3"
     socket.io-client "~2.2.0"
     tar "~4.4.10"
 
@@ -1133,10 +1141,25 @@
   resolved "https://registry.yarnpkg.com/@best/types/-/types-4.0.0-alpha11.tgz#199d63f71dcd9866115a618d94f72227d74cda76"
   integrity sha512-nHVU0DzKzHHOqAAgMkGEdTU8hvafWzDbhEOYeLWQT3lrePAirrqMT2qL0PeptnZBYFwFjoAWrJARCww3ltdV7w==
 
+"@best/types@4.0.0-beta3":
+  version "4.0.0-beta3"
+  resolved "https://registry.yarnpkg.com/@best/types/-/types-4.0.0-beta3.tgz#197072db7d972187a88c272fd8e16eac29c8d523"
+  integrity sha512-A1vCtrn2wkMe+ySp+9ykg+P2X5qt0uJW8BlT7fNryz1KuHQiHK/5jaMOXKof2OLdTHoH0L81v3BpQFfr5D8y+A==
+
 "@best/utils@4.0.0-alpha11":
   version "4.0.0-alpha11"
   resolved "https://registry.yarnpkg.com/@best/utils/-/utils-4.0.0-alpha11.tgz#0c5175dcc881ec6fb641d3e2eb34d4dd48b7aeac"
   integrity sha512-lXwVHT36CyzpVmEOIuMXM2BWSLvxYyZHjgJGUMsZ8fCfD7x2CXpyXj6P+fRJ8SaVKlVdsNIVK6y9lOLAE77tlg==
+  dependencies:
+    chalk "~2.4.2"
+    https-proxy-agent "2.2.2"
+    is-ci "~2.0.0"
+    systeminformation "~4.9.2"
+
+"@best/utils@4.0.0-beta3":
+  version "4.0.0-beta3"
+  resolved "https://registry.yarnpkg.com/@best/utils/-/utils-4.0.0-beta3.tgz#369060f98ac2400e56701c61c1aef5f112b83afb"
+  integrity sha512-Hy2e+4qDZfoVxZt8JhoYvs8M+lZzUU3mW3gsF4JdORMmSlRxPH1BtWQvpmjWot5WvSNJlF+XaAc3VQsrhJyTrw==
   dependencies:
     chalk "~2.4.2"
     https-proxy-agent "2.2.2"
@@ -5372,7 +5395,6 @@ escodegen@^1.11.1:
 
 "eslint-plugin-lwc-internal@link:./scripts/eslint-plugin":
   version "0.0.0"
-  uid ""
 
 eslint-scope@^5.0.0:
   version "5.0.0"
