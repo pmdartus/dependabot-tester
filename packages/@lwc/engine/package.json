@@ -16,7 +16,7 @@
         "types/"
     ],
     "dependencies": {
-        "observable-membrane": "0.26.1"
+        "observable-membrane": "1.0.1"
     },
     "devDependencies": {
         "@lwc/features": "1.2.2",
