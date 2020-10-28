@@ -26,7 +26,7 @@
         "@lwc/shared": "1.2.2",
         "esutils": "^2.0.3",
         "he": "^1.1.1",
-        "parse5-with-errors": "4.0.3-beta1"
+        "parse5-with-errors": "4.0.4"
     },
     "publishConfig": {
         "access": "public"
