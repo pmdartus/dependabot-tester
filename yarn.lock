@@ -2451,10 +2451,10 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
-"@types/he@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@types/he/-/he-1.1.0.tgz#0ddc2ae80f0814f729f0f7e5aa77b191ab4a9598"
-  integrity sha512-HyiLOiJhclRBPzcbYrNThdi0JOdq7bT4hq9jFBPQk4HGjzkwYVQnMj9IDi7qvYkg9QTly2oZ9kjm4j7d8Ic9eA==
+"@types/he@1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@types/he/-/he-1.1.2.tgz#0c8b275f36d2b8b651104638e4d45693349c3953"
+  integrity sha512-kSJPcLO1x+oolc0R89pUl2kozldQ/fVQ1C1p5mp8fPoLdF/ZcBvckaTC2M8xXh3GYendXvCpy5m/a2eSbfgNgw==
 
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0", "@types/istanbul-lib-coverage@^2.0.1":
   version "2.0.1"
@@ -5372,7 +5372,6 @@ escodegen@^1.11.1:
 
 "eslint-plugin-lwc-internal@link:./scripts/eslint-plugin":
   version "0.0.0"
-  uid ""
 
 eslint-scope@^5.0.0:
   version "5.0.0"
