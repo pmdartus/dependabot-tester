@@ -7,7 +7,7 @@
         "remote": "best --projects best.headless.config.js --runner remote"
     },
     "devDependencies": {
-        "@best/cli": "^4.0.0-alpha11",
+        "@best/cli": "4.1.0",
         "@best/runner-headless": "4.0.0-alpha11",
         "@best/runner-hub": "4.0.0-alpha11",
         "@best/store-aws": "4.0.0-alpha11",
